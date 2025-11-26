@@ -1,19 +1,18 @@
-# Customer Segmentation Streamlit App
+# Universal Customer Segmentation App
 
-This app allows users to upload any customer dataset and performs K-Means clustering to visualize segments.
+This Streamlit application performs **K-Means based customer segmentation**  
+on ANY CSV dataset containing numeric columns.
 
-## How to Run
-
-streamlit run app.py
-
-
-## Features
-- Upload any CSV dataset
-- Auto preprocessing
+### Features
+- Upload any dataset (.csv)
+- Auto-detect numeric columns
+- Choose features to cluster
+- Elbow method visualization
 - K-Means clustering
-- Visual cluster plots
+- Cluster visualization with centroids
+- Download segmented dataset
 
-
-Step-3: Save the file
-
-Just press Ctrl+S.
+### How to Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
